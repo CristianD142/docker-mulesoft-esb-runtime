@@ -14,7 +14,5 @@ RUN wget https://repository.mulesoft.org/nexus/service/local/repositories/releas
 
 VOLUME /opt/mule/
 
-#EXPOSE 8081
-
 CMD [ "/opt/mule/bin/mule"]
 
